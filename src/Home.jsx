@@ -21,7 +21,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="heroSectionOfHomePage">
+                {/* <div className="heroSectionOfHomePage">
                     <div>
                         <img className="twoherosectionImg" width="100%"
                             src="https://medicate.peacefulqode.co.in/wp-content/uploads/2022/03/3-2.jpg" alt="" />
@@ -35,9 +35,9 @@ const Home = () => {
                             the readable content of a page when looking at its layout .</p>
                         <button className="readMoreBtn">Read More+</button>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="heroSectionOfHomePage">
+                {/* <div className="heroSectionOfHomePage">
                     <div>
                         <img className="threeherosectionImg" width="100%"
                             src="https://medicate.peacefulqode.co.in/wp-content/uploads/2022/04/2-51.jpg" alt="" />
@@ -51,7 +51,7 @@ const Home = () => {
                             the readable content of a page when looking at its layout.</p>
                         <button className="readMoreBtn">Read More+</button>
                     </div>
-                </div>
+                </div> */}
             </div>
 
 

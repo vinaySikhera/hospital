@@ -374,6 +374,7 @@ hr {
     .footerContainer {
         flex-direction: column;
         align-items: center;
+        margin-top: 113px;
     }
 
     .singleFooterContainer {
