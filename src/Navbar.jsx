@@ -1,16 +1,16 @@
 import React, { createRef, useState } from 'react'
 import './navbar.css'
 
-const navbar = () => {
+const Navbar = () => {
     const secondNavbarClick = createRef();
 
     const [isToggle, setIsToggle] = useState(false);
     const handleToogle = () => {
         console.log(secondNavbarClick.current.classList.add('active'))
-        // console.log(secondNavbarClick.current.classList.remove('active'))
+       
         setIsToggle(!isToggle);
         isToggle ? secondNavbarClick.current.classList.remove('active') : secondNavbarClick.current.classList.add('active')
-        // secondNavbarClick.classList.toggle('active')
+     
 
     }
 
@@ -80,9 +80,9 @@ const navbar = () => {
                 </div>
             </div>
             <div><button onClick={handleToogle} className="menuBtn">{isToggle ? "close" : "menu"}</button></div>
-            <script src="js/navbar.js"></script>
+            
         </div>
     )
 }
 
-export default navbar
+export default Navbar
