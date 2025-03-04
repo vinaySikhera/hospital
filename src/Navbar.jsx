@@ -2,6 +2,7 @@ import React, { createRef, useState } from 'react'
 import './navbar.css'
 
 const Navbar = () => {
+    
     const secondNavbarClick = createRef();
 
     const [isToggle, setIsToggle] = useState(false);
@@ -30,9 +31,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="rightUpperNavbar">
-                    <div><i className="fa fa-facebook-f">face</i></div>
-                    <div><i className="fa fa-google"></i>G</div>
-                    <div><i className="fa fa-instagram">Insta</i></div>
+                    <div><i className="fa fa-facebook-f"></i></div>
+                    <div><i className="fa fa-google"></i></div>
+                    <div><i className="fa fa-instagram"></i></div>
                     <div>p</div>
                 </div>
             </div>
@@ -73,8 +74,8 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div>contact us</div>
-                    <div><i className="fa fa-search">search</i></div>
-                    <div><i className="fa fa-shopping-cart">cart</i></div>
+                    <div><i className="fa fa-search"></i></div>
+                    <div><i className="fa fa-shopping-cart"></i></div>
                     <div><button className="btnOFNavBar">Appointments +</button></div>
                 </div>
             </div>

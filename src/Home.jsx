@@ -74,7 +74,8 @@ const Home = () => {
                     <br />
                     <div>
                         <label >
-                            <i className="fa fa-phone iconHomePhone"></i> <a href="#" className="phoneNumber"> +1154568875263 </a>
+                            {/* <i className="fa fa-phone iconHomePhone"></i>  */}
+                            <a href="#" className="phoneNumber"> +1154568875263 </a>
                         </label>
                     </div>
                 </div>
@@ -145,12 +146,12 @@ const Home = () => {
                     <p className="paraof3RDsection">It is a long established fact that a reader will be distracted by at its
                         layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <ul className="listItems">
-                        <li> &ensp; Comprehensive Inpatient Services</li>
-                        <li> &ensp; Medical And Surgical Services</li>
-                        <li> &ensp; Outpatient Services</li>
-                        <li> &ensp; Medicine & instrument</li>
-                        <li> &ensp; Specialised Support Service</li>
-                        <li>&ensp; Instant Operation & Appointment</li>
+                        <li> <i class="fa fa-check"></i> &ensp; Comprehensive Inpatient Services</li>
+                        <li><i class="fa fa-check"></i> &ensp; Medical And Surgical Services</li>
+                        <li><i class="fa fa-check"></i> &ensp; Outpatient Services</li>
+                        <li><i class="fa fa-check"></i> &ensp; Medicine & instrument</li>
+                        <li><i class="fa fa-check"></i> &ensp; Specialised Support Service</li>
+                        <li><i class="fa fa-check"></i>&ensp; Instant Operation & Appointment</li>
                     </ul>
                     <button className="readMoreBtn3rdSection">Read More +</button>
                 </div>
@@ -228,15 +229,15 @@ const Home = () => {
                     </div>
                     <div className="stats">
                         <div>
-                            <h2 className="incrementDetails">80</h2>
+                            <h2 className="incrementDetails">80+</h2>
                             <p>Happy Patients</p>
                         </div>
                         <div>
-                            <h2 className="incrementDetails">100</h2>
+                            <h2 className="incrementDetails">100+</h2>
                             <p>Saved Hearts</p>
                         </div>
                         <div>
-                            <h2 className="incrementDetails">59</h2>
+                            <h2 className="incrementDetails">59+</h2>
                             <p>Expert Doctors</p>
                         </div>
                     </div>
@@ -426,9 +427,9 @@ const Home = () => {
                             <p>Neurology</p>
                         </div>
                         <div className="iconOfOurTeam w3-animate-top">
-                            <div><i className="fa fa-facebook-f">f</i></div>
-                            <div><i className="fa fa-google"></i>G</div>
-                            <div><i className="fa fa-instagram">in</i></div>
+                            <div><i className="fa fa-facebook-f"></i></div>
+                            <div><i className="fa fa-google"></i></div>
+                            <div><i className="fa fa-instagram"></i></div>
                         </div>
                     </div>
 
@@ -441,9 +442,9 @@ const Home = () => {
                             <p>Endocrinology</p>
                         </div>
                         <div className="iconOfOurTeam w3-animate-top">
-                            <div><i className="fa fa-facebook-f">f</i></div>
-                            <div><i className="fa fa-google"></i>g</div>
-                            <div><i className="fa fa-instagram">in</i></div>
+                            <div><i className="fa fa-facebook-f"></i></div>
+                            <div><i className="fa fa-google"></i></div>
+                            <div><i className="fa fa-instagram"></i></div>
                         </div>
                     </div>
 
@@ -456,9 +457,9 @@ const Home = () => {
                             <p>Eye Care</p>
                         </div>
                         <div className="iconOfOurTeam w3-animate-top">
-                            <div><i className="fa fa-facebook-f">f</i></div>
-                            <div><i className="fa fa-google"></i>g</div>
-                            <div><i className="fa fa-instagram">in</i></div>
+                            <div><i className="fa fa-facebook-f"></i></div>
+                            <div><i className="fa fa-google"></i></div>
+                            <div><i className="fa fa-instagram"></i></div>
                         </div>
                     </div>
                 </div>

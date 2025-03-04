@@ -451,6 +451,7 @@
     margin-top: 15px;
     /* Adjust gap for consistency */
     margin-bottom: 25px;
+    
 }
 
 .listItems li {
@@ -512,7 +513,8 @@
     background-color: #eaeaea;
     border-radius: 10px;
     position: relative;
-    left: -110px;
+    /* left: -110px; */
+    margin-left: 125px;
     /* animation: thirdImage 2s;
     animation-fill-mode: forwards;
     animation-timing-function: ease; */

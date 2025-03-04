@@ -36,10 +36,10 @@ const Footer = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, vero.</p>
           </div>
           <div>
-            <span>face</span>
-            <span>google</span>
-            <span>insta</span>
-            <span>p</span>
+            <span> <i class="fa fa-facebook-f"></i></span>
+            <span><i class="fa fa-google"></i></span>
+            <span><i class="fa fa-instagram"></i></span>
+            <span><i class="fa fa-facebook-f"></i></span>
           </div>
         </div>
         <div className="singleFooterContainer">
