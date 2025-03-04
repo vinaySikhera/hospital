@@ -2,7 +2,6 @@ import React, { createRef, useState } from 'react'
 import './navbar.css'
 
 const navbar = () => {
-    const [menuBtn, setMenuBtn] = useState("Menu");
     const secondNavbarClick = createRef();
 
     const [isToggle, setIsToggle] = useState(false);
