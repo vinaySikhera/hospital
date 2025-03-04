@@ -10,7 +10,6 @@ const Navbar = () => {
        
         setIsToggle(!isToggle);
         isToggle ? secondNavbarClick.current.classList.remove('active') : secondNavbarClick.current.classList.add('active')
-     
 
     }
 

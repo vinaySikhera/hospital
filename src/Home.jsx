@@ -55,10 +55,10 @@ const Home = () => {
             </div>
 
 
-            {/* <div className="sidebyside3div">
+             <div className="sidebyside3div">
                 <div className="littledetailsBox detailsBox1">
                     <div>
-                        <img style="color: whitesmoke;" height="80px" width="80px" src="images/doctor.png" alt="" />
+                          <img height="80px" width="80px" src="images/doctor.png" alt="" />  
                     </div>
                     <br />
                     <div>
@@ -73,15 +73,15 @@ const Home = () => {
                     </div>
                     <br />
                     <div>
-                        <label for="">
+                        <label >
                             <i className="fa fa-phone iconHomePhone"></i> <a href="#" className="phoneNumber"> +1154568875263 </a>
                         </label>
                     </div>
                 </div>
                 <div className="littledetailsBox detailsBox2">
                     <div>
-                        <img style="color: whitesmoke;" height="80px" width="80px"
-                            src="https://img.icons8.com/ios/50/2490eb/doctor-male.png" alt="" />
+                         <img  height="80px" width="80px"
+                             src="https://img.icons8.com/ios/50/2490eb/doctor-male.png" alt="" /> 
                     </div>
                     <br />
                     <div>
@@ -101,8 +101,8 @@ const Home = () => {
                 </div>
                 <div className="littledetailsBox detailsBox3">
                     <div>
-                        <img style="color: rgb(255, 255, 255);" height="80px" width="80px" src="images/availability.png"
-                            alt="" />
+                         <img  height="80px" width="80px" src="images/availability.png"
+                             alt=""/ >
                     </div>
                     <br />
                     <div>
@@ -131,7 +131,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div> 
+
+
             <div className="section3rd">
                 <div id="section3RDimageBox" className="section3RDimageBox">
                     <img width="100%"
